@@ -1,3 +1,4 @@
+import { SegundaAula } from "./lessons/SegundaAula"
 import { Login } from "./pages/Login"
 
 
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Login />
+      <SegundaAula />
     </>
   )
 }
