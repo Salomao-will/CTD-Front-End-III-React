@@ -1,0 +1,51 @@
+.card-components {
+  background-color: #101010;
+  padding: 2rem;
+  height: 100vh;
+
+  * {
+    color: #fff;
+  }
+
+  h1 {
+    margin-left: 40px;
+  }
+
+  .list-components {
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .list {
+      width: 250px;
+      height: 340px;
+      padding: 24px;
+      background-color: #151515;
+      list-style: none;
+      border-radius: 0.6rem;
+      cursor: pointer;
+      transition: 1s;
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 25px;
+
+      &:hover {
+        background-color: #202020;
+        transform: translateY(-8px);
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 0.6rem;
+      }
+
+      p {
+        color: #808080;
+      }
+    }
+  }
+}

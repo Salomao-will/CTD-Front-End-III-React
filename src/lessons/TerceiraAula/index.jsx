@@ -3,8 +3,9 @@ import cardAkita from './../../assets/images/akita.jpeg';
 import cardEnglish from './../../assets/images/english.jpeg';
 import cardCoffeeGringo from './../../assets/images/coffeGringo.jpeg';
 import cardPodcast from './../../assets/images/podcast.jpeg';
+import { TerceiraAulaItem } from '../../components/TerceiraAulaItem';
 
-export function SegundaAula(){
+export function TerceiraAula(){
 
   const componentsCard = [
     {
@@ -36,11 +37,7 @@ export function SegundaAula(){
         {
           componentsCard.map(
             (component, index) => (
-              <li className='list'key={index}>
-                <img src={component.image} alt="" />
-                <h3>{component.title}</h3>
-                <p>{component.description}</p>
-              </li>
+              <TerceiraAulaItem cards={component}/>
             )
           )
         }
