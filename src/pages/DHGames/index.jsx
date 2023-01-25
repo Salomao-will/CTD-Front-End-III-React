@@ -13,19 +13,9 @@ export function DHGames() {
 
         {
           newGames.map(
-            item => (
+            (item, index) => (
               <>
-                <div className="info-item">
-                <img src={item.picture} alt="" />
-                  <div className="infos">
-                    <h3>{item.name}</h3>
-                    <div>
-                      <span>{item.plataforms}</span>
-                    </div>
-                    <small>{item.categories}</small>
-                  </div>
-                  <p>{item.price}</p>
-                </div>
+                <DHGameItem key={index} gameList={item} />
               </>
             )
           )
