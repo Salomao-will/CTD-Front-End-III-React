@@ -33,7 +33,17 @@ const newProduct = {
   return(
     <div>
 
-      
+      <h1>Halloween Offers</h1>
+
+      <div className="container">
+        <section>
+          <img src="" alt="" />
+          <h3>Dark Soul</h3>
+          <small>soul like</small>
+          <small>200</small>
+          <p>50</p>
+        </section>
+      </div>
 
     </div>
   )
