@@ -37,7 +37,8 @@ export function QuartaAula() {
   return (
     <div className="main">
 
-      <button onClick={() => addItem()} type='submit'>Add Card</button>
+      <button onClick={() => addItem()
+      } type='submit'>Add Card</button>
 
       <div className="card">
         <ul className='listCard'>

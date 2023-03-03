@@ -1,0 +1,27 @@
+.card {
+  width: 300px;
+  height: 200px;
+  border: none;
+  box-shadow: 1px 1px 5px 1px #00000054;
+  border-radius: 8px;
+
+  img {
+    width: 300px;
+    height: 130px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .title {
+
+    padding: 10px;
+
+    h3 {
+      color: #545776;
+    }
+
+    p {
+      margin-top: 10px;
+      color: #909090;
+    }
+  }
+}
