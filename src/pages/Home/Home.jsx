@@ -36,8 +36,8 @@ export function Home() {
 
         {
           cardJson.map(
-            item => (
-              <Card card={item} />
+            (item, index) => (
+              <Card key={index} card={item} />
             )
           )
         }
@@ -49,7 +49,7 @@ export function Home() {
       <section className='card-2'>
 
 
-        <div className="container">
+        <div className="box">
 
           <img src={cardHome} alt="foto de carro" />
 
